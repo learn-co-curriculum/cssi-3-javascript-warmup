@@ -35,7 +35,7 @@ function addTwoNumbers(first, second) {
 }
 ```
 
-##### What's the difference between console.log(sum) and return sum?
+##### What's the difference between `console.log(sum)` and `return sum`?
 Try typing the following in your console:
 
 ```javascript

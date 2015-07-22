@@ -44,7 +44,7 @@ result;
 ```
 
 ```javascript
-var sum = addTwoNumbers2(1, 2);
+var sum = addTwoNumbers(1, 2);
 sum;
 ```
 

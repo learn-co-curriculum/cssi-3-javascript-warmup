@@ -111,6 +111,7 @@ touch(head, "knees " + knees);
   * Takes 1 argument: the hour of the day (24 hour time)
   * Logs to the console "Good day" if the hour is less than 18, or "Good evening" otherwise.
   * For example, `greeting(10)` should log "Good day", and `greeting(20)` should log "Good evening".
+  * Extra credit: Do not print anything when the hour parameter is invalid, such as `greeting(24)`, `greeting("hello")`, or `greeting()`. (Decimals are OK, e.g. `greeting(17.9)` should log "Good day").
 3. Write a function called `receipt` that:
   * Takes 1 argument, the subtotal (total cost of the meal, without tax or tip)
   * Returns the total cost, based on a 9% tax and a 15% tip.
@@ -128,4 +129,9 @@ Complete these if you have extra time and want to take on a challenge!
 2. Write a function called `splitTheBill` that:
   * Takes 2 arguments, the total cost (i.e. with tax and tip included), and an array of string names (e.g. `["Victoria", "Jessie", "Joseph"]`)
   * For each person, logs to the console the amount that they owe in the form of "[name] owes $[money]"
-  * Splits the amount owed per person as evenly as possible among the number of people. Note that money cannot exceed 2 decimal places (e.g. you cannot have $12.255) and the sum of each part should still add exactly up to the total cost.
+  * Splits the amount owed per person as evenly as possible among the number of people. 
+  * Note that money cannot exceed 2 decimal places (e.g. you cannot have $12.255) and the sum of each part should still add exactly up to the total cost.
+  * For example, splitTheBill(122.27, ["Victoria", "Joseph", "Jessie"]) should print:
+    "Victoria owes $40.76"
+    "Joseph owes $40.76"
+    "Jessie owes $40.75"

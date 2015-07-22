@@ -115,7 +115,7 @@ function splitTheBill(totalCost, names) {
   }
 
   for (var i = 0; i < names.length; i++) {
-    console.log(names[i] + " owes $" + costsPerPerson[i]);
+    console.log(names[i] + " owes $" + costsPerPerson[i].toFixed(2));
   }
 }
 
@@ -128,7 +128,7 @@ function splitTheBill2(totalCost, names) {
     if (penniesRemaining > 0) {
       cost += 0.01;
     }
-    console.log(names[i] + " owes $" +  cost);
+    console.log(names[i] + " owes $" +  cost.toFixed(2));
     penniesRemaining--;
   }
 }

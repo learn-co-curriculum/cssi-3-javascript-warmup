@@ -121,7 +121,10 @@ Complete these if you have extra time and want to take on a challenge!
 
 1. Modify your `receipt` function in the following ways:
   * Take an additional argument, tip, to specify the percentage of tip to leave. For example, `receipt(20, 10)` should return 23.8.
-  * Replace the subtotal argument with an array called costsPerItem, which is an array containing the prices for each item ordered in the meal. Compute the subtotal from the costsPerItem array and calculate the total cost with tax and tip. For example, `receipt([10, 9, 25], 20)` should return 56.76.
+  * Replace the subtotal argument with an array called costsPerItem, which is an array containing the prices for each item ordered in the meal. 
+    * Compute the subtotal from the costsPerItem array and calculate the total cost with tax and tip.
+    * Round to the nearest cent.
+    * For example, `receipt([10, 9, 25], 20)` should return 56.76.
 2. Write a function called `splitTheBill` that:
   * Takes 2 arguments, the total cost (i.e. with tax and tip included), and an array of string names (e.g. `["Victoria", "Jessie", "Joseph"]`)
   * For each person, logs to the console the amount that they owe in the form of "[name] owes $[money]"

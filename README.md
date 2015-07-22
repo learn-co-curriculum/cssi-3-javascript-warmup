@@ -29,7 +29,7 @@ function logTwoNumbers(first, second) {
 ```
 
 ```javascript
-function addTwoNumbers2(first, second) {
+function addTwoNumbers(first, second) {
   var sum = first + second;
   return sum;
 }

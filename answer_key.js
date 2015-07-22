@@ -118,3 +118,17 @@ function splitTheBill(totalCost, names) {
     console.log(names[i] + " owes $" + costsPerPerson[i]);
   }
 }
+
+// A more concise solution.
+function splitTheBill2(totalCost, names) {
+  var approximateCostPerPerson = Math.floor(totalCost / names.length * 100) / 100; 
+  var penniesRemaining = totalCost * 100 - (approximateCostPerPerson * names.length * 100);
+  for (var i = 0; i < names.length; i++) {
+    var cost = approximateCostPerPerson;
+    if (penniesRemaining > 0) {
+      cost += 0.01;
+    }
+    console.log(names[i] + " owes $" +  cost);
+    penniesRemaining--;
+  }
+}

@@ -117,7 +117,7 @@ touch(head, "knees " + knees);
   * For example, `receipt(20)` should return 24.8.
 
 ###5. Extra Credit
-Complete these if you have time and want to take on a challenge!
+Complete these if you have extra time and want to take on a challenge!
 
 1. Modify your `receipt` function in the following ways:
   * Take an additional argument, tip, to specify the percentage of tip to leave. For example, `receipt(20, 10)` should return 23.8.

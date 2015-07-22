@@ -6,9 +6,9 @@ language: JavaScript, JS
 # JavaScript Day 3 Warm-up!
 
 
-##Instructions:
+## Instructions:
 
-###1. Function Drills
+### 1. Function Drills
 
 For each of these functions, do the following:
 
@@ -22,20 +22,35 @@ function sayHello() {
 ```
 
 ```javascript
-function addTwoNumbers(first, second) {
+function logTwoNumbers(first, second) {
   var sum = first + second;
   console.log(sum);
 }
 ```
 
 ```javascript
-function addTwoNumbers(first, second) {
+function addTwoNumbers2(first, second) {
   var sum = first + second;
   return sum;
 }
 ```
 
-###2. Conditional Drills
+##### What's the difference between console.log(sum) and return sum?
+Try typing the following in your console:
+
+```javascript
+var result = logTwoNumbers(1, 2);
+result;
+```
+
+```javascript
+var sum = addTwoNumbers2(1, 2);
+sum;
+```
+
+Note that `result` is undefined, while `sum` is 3. Returning a result allows you to capture the result in a variable. Using `console.log` simply prints out the result on the console, but it can't be saved into a variable.
+
+### 2. Conditional Drills
 Given these variables:
 ```javascript
 var bigNum = 1000;
@@ -50,7 +65,7 @@ var smallNum = 2;
 
 4. Use the not equals `!=` operator to make one true statement and one false statement, and `console.log` the results
 
-###3. Code Reading
+### 3. Code Reading
 *DO NOT RUN THESE CODE EXAMPLES!!*
 
 The following is an exercise in reading code. Try to answer the following questions by only reading the code, without actually running it!
@@ -102,7 +117,7 @@ touch(head, "knees " + knees);
 
 ```
 
-###4. Code Writing
+### 4. Code Writing
 
 1.  Write a function called `myName` that simply returns your name as a string. 
   * Store that string in a variable called `thisIsMyName`
@@ -117,7 +132,7 @@ touch(head, "knees " + knees);
   * Returns the total cost, based on a 9% tax and a 15% tip.
   * For example, `receipt(20)` should return 24.8.
 
-###5. Extra Credit
+### 5. Extra Credit
 Complete these if you have extra time and want to take on a challenge!
 
 1. Modify your `receipt` function in the following ways:

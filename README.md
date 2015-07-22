@@ -131,7 +131,10 @@ Complete these if you have extra time and want to take on a challenge!
   * For each person, logs to the console the amount that they owe in the form of "[name] owes $[money]"
   * Splits the amount owed per person as evenly as possible among the number of people. 
   * Note that money cannot exceed 2 decimal places (e.g. you cannot have $12.255) and the sum of each part should still add exactly up to the total cost.
-  * For example, splitTheBill(122.27, ["Victoria", "Joseph", "Jessie"]) should print:
+  * For example, `splitTheBill(122.27, ["Victoria", "Joseph", "Jessie"])` should print:
+
     "Victoria owes $40.76"
+
     "Joseph owes $40.76"
+
     "Jessie owes $40.75"

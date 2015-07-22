@@ -105,20 +105,20 @@ touch(head, "knees " + knees);
 ###4. Code Writing
 
 1.  Write a function called `myName` that simply returns your name as a string. 
-⋅⋅* Store that string in a variable called `thisIsMyName`
-⋅⋅* Log the value of that variable to the console.
+  * Store that string in a variable called `thisIsMyName`
+  * Log the value of that variable to the console.
 2.  Write a function called `greeting` that:
-⋅⋅* Takes 1 argument: the hour of the day (24 hour time)
-⋅⋅* Logs to the console "Good day" if the hour is less than 18, or "Good evening" otherwise.
-⋅⋅* For example, `greeting(10)` should log "Good day", and `greeting(20)` should log "Good evening".
+  * Takes 1 argument: the hour of the day (24 hour time)
+  * Logs to the console "Good day" if the hour is less than 18, or "Good evening" otherwise.
+  * For example, `greeting(10)` should log "Good day", and `greeting(20)` should log "Good evening".
 3. Write a function called `receipt` that:
-⋅⋅* Takes 1 argument, the subtotal (total cost of the meal, without tax or tip)
-⋅⋅* Returns the total cost, based on a 9% tax and a 15% tip.
-⋅⋅* For example, `receipt(20)` should return 24.8.
+  * Takes 1 argument, the subtotal (total cost of the meal, without tax or tip)
+  * Returns the total cost, based on a 9% tax and a 15% tip.
+  * For example, `receipt(20)` should return 24.8.
 4. Extra credit: Modify the `receipt` function in the following ways:
-⋅⋅* Take an additional argument, tip, to specify the percentage of tip to leave. For example, `receipt(20, 10)` should return 23.8.
-⋅⋅* Replace the subtotal argument with an array called costsPerItem, which is an array containing the prices for each item ordered in the meal. Compute the subtotal from the costsPerItem array and calculate the total cost with tax and tip. For example, `receipt([10, 9, 25], 20)` should return 56.76.
+  * Take an additional argument, tip, to specify the percentage of tip to leave. For example, `receipt(20, 10)` should return 23.8.
+  * Replace the subtotal argument with an array called costsPerItem, which is an array containing the prices for each item ordered in the meal. Compute the subtotal from the costsPerItem array and calculate the total cost with tax and tip. For example, `receipt([10, 9, 25], 20)` should return 56.76.
 5. Extra extra credit: Write a function called `splitTheBill` that:
-⋅⋅* Takes 2 arguments, the total cost (i.e. with tax and tip included), and an array of string names (e.g. `["Victoria", "Jessie", "Joseph"]`)
-⋅⋅* For each person, logs to the console the amount that they owe in the form of "[name] owes $[money]"
-⋅⋅* Splits the amount owed per person as evenly as possible among the number of people. Note that money cannot exceed 2 decimal places (e.g. you cannot have $12.255) and the sum of each part should still add exactly up to the total cost.
+  * Takes 2 arguments, the total cost (i.e. with tax and tip included), and an array of string names (e.g. `["Victoria", "Jessie", "Joseph"]`)
+  * For each person, logs to the console the amount that they owe in the form of "[name] owes $[money]"
+  * Splits the amount owed per person as evenly as possible among the number of people. Note that money cannot exceed 2 decimal places (e.g. you cannot have $12.255) and the sum of each part should still add exactly up to the total cost.

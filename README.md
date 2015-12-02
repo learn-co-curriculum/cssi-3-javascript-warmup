@@ -153,3 +153,5 @@ Complete these if you have extra time and want to take on a challenge!
     "Joseph owes $40.76"
 
     "Jessie owes $40.75"
+
+<a href='https://learn.co/lessons/cssi-3-javascript-warmup' data-visibility='hidden'>View this lesson on Learn.co</a>
